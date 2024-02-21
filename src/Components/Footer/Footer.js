@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl border-t md:px-24 lg:px-8">
       <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div class="sm:col-span-2">
           <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
