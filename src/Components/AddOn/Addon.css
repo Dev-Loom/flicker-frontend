@@ -1,0 +1,64 @@
+/* Addon.css */
+.addon-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.addon-group {
+  margin-bottom: 20px;
+}
+
+.item-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 20px; /* Adjust as needed */
+  padding-bottom: 10px; /* Add some bottom padding to prevent horizontal scrollbar */
+}
+
+.item-card {
+  flex: 0 0 calc(20% - 20px); /* Adjust width for responsiveness */
+  max-width: calc(20% - 20px); /* Adjust max-width for responsiveness */
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.item-card:nth-child(n + 6) {
+  margin-top: 20px; /* Add top margin to items starting from the sixth item */
+}
+
+.item-image {
+  width: 120px; /* Set width */
+  height: 120px; /* Set height */
+  border-radius: 50%; /* Apply border radius to make it circular */
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Ensure the image is displayed as a block element */
+  object-fit: cover; /* Ensure the image covers the circular area */
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.item-price {
+  font-size: 14px;
+  color: #666666;
+}
+.item-card:hover {
+  background-color: #f3f4f6; /* Change background color on hover */
+}
+h1 {
+  font-size: larger;
+  text-transform: uppercase;
+  color: rgb(2, 2, 4);
+}

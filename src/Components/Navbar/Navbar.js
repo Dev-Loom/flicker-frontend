@@ -59,7 +59,24 @@ const Navbar = () => {
                 FAQ
               </NavLink>
             </li>
-            {/* Add more NavLink items for other pages */}
+            <li>
+              <NavLink
+                to="/faq"
+                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                activeClassName="bg-blue-700"
+              >
+                T&C
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/addOn"
+                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                activeClassName="bg-blue-700"
+              >
+                Add On
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
